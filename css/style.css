@@ -202,16 +202,6 @@ input:-webkit-autofill:focus {
     font-weight: 500;
     margin-right: 12px;
   }
-
-  .box-shadow { inset 0 0 0.5px 1px hsla(0, 0%,
-              100%, 0.075),
-              /* shadow ring  /
-              0 0 0 1px hsla(0, 0%, 0%, 0.05),
-              / multiple soft shadows  */
-              0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
-              0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
-              0 3.5px 6px hsla(0, 0%, 0%, 0.09);
-            }
   /* Darker background on mouse-over */
   .btn:hover {
     background-color: #DEEBFF;
@@ -282,6 +272,12 @@ li.hebergements:hover, li.activites:hover, li.hebergements:focus, li.activites:f
     width: 65%;
 }
 
+.carte {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;   
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1)
+}
 .carte_choix {
     display: grid;
     grid-template-columns: 1fr 2fr 3fr;
@@ -290,11 +286,6 @@ li.hebergements:hover, li.activites:hover, li.hebergements:focus, li.activites:f
 .carte_choix img {
     width: 250px;
     height: 124px;
-}
-.carte_choix a {
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 /****** Populaires ***********/
