@@ -313,14 +313,24 @@ li.hebergements:hover, li.activites:hover, li.hebergements:focus, li.activites:f
 
 /**** Activités a Marseille ****/
 .activites-title {
-    display: grid;
-    grid-template-columns: 1fr 2fr 3fr;
-    grid-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.activites-title img {
+.activites-cards img {
     width: 250px;
     height: 124px;
 }
+
+.activites-cards {
+    display: flex;
+    margin-top: 33px;    
+}
+
+#container-hebergement {
+    display: flex;
+}
+
 .activites-title a {
     background-color: white;
     padding: 10px;
@@ -349,7 +359,32 @@ li.hebergements:hover, li.activites:hover, li.hebergements:focus, li.activites:f
     margin-bottom: 5px;
 }
 
+.footer {
+    background-color: #F2F2F2;
+    ;
+}
 
+.footer_colonne {
+    display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+.footer_colonne_wrapper {
+    width: 35%;
+    padding: 2rem 2rem;
+}
+h3 {
+
+}
+
+.footer_colonne_lien {
+    display: block;
+    margin: 1rem 0;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
