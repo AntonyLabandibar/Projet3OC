@@ -274,8 +274,8 @@ li.hebergements:hover, li.activites:hover, li.hebergements:focus, li.activites:f
 
 .carte {
     background-color: white;
-    padding: 10px;
-    border-radius: 10px;   
+    padding: 5px;
+    border-radius: 20px;   
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1)
 }
 .carte_choix {
@@ -286,6 +286,7 @@ li.hebergements:hover, li.activites:hover, li.hebergements:focus, li.activites:f
 .carte_choix img {
     width: 250px;
     height: 124px;
+    border-radius: 20px;
 }
 
 /****** Populaires ***********/
@@ -318,12 +319,15 @@ li.hebergements:hover, li.activites:hover, li.hebergements:focus, li.activites:f
     align-items: center;
 }
 .activites-cards img {
-    width: 250px;
-    height: 124px;
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px;
 }
 
 .activites-cards {
     display: flex;
+    flex-direction: column;
+    margin-right: 30px;
     margin-top: 33px;    
 }
 
@@ -361,13 +365,11 @@ li.hebergements:hover, li.activites:hover, li.hebergements:focus, li.activites:f
 
 .footer {
     background-color: #F2F2F2;
-    ;
+    display: flex;
 }
 
 .footer_colonne {
-    display: flex;
-    max-width: 100%;
-    width: 1440px;
+
     margin: auto;
     padding: 0 2rem;
     box-sizing: border-box;
@@ -386,6 +388,11 @@ h3 {
     margin: 1rem 0;
 }
 
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
